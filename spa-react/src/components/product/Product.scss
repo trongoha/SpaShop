@@ -1,0 +1,16 @@
+
+
+.images{
+  overflow: hidden;
+  object-fit: cover;
+  img{
+    width: 100%;
+    object-fit: cover;
+    background: #fff;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+}
+
